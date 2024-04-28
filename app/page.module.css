@@ -1,0 +1,57 @@
+.main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+}
+
+.sectionOne {
+    display: flex;
+    align-items: center;
+    grid-column: 4 / 11;
+    gap: 80px;
+    margin: 0 20px 0 20px;
+    grid-row: 4;
+}
+
+.sectionOneText {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionOneSubHeader {
+    font-weight: 700;
+    border-left: 5px solid purple;
+    padding: 15px;
+}
+
+.sectionOneHeader {
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.sectionOnePara {
+    margin-top: -10px;
+}
+
+.sectionOneButton {
+    background-color: purple;
+    max-width: 220px;
+    border-radius: 5px;
+    margin-top: 60px;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    border: none;
+}
+
+.sectionOneImage {
+    margin-left: 50px;
+    width: 1000px;
+    height: 400px;
+}
+
+.sectionOneImage > img {
+    border-radius: 15px;
+}
